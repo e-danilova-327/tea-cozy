@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  background-color: black;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  scroll-padding-top: 70px;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  background-color: black;
+  top: 0;
+  overflow: hidden;
+  height: 69px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+ul {
+  list-style-type: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+li {
+  text-decoration: underline;
+  margin: 10px;
+}
+
+a {
+  color: seashell;
+}
+
+#navbar {
+  border-bottom: 1px solid seashell;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 100%;
+  height: 100%;
+}
+
+#logo {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin: 9.5px 10px;
+  padding: 10px;
+}
+
+#logoImg {
+  height: 50px;
+}
+
+#nav {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+#mission {
+  height: 700px;
+  width: 1200px;
+  background-image: url("img-mission-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+}
+
+.missionText {
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  justify-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  padding: 10px;
+}
+
+#monthTea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 1000px;
+  margin: auto;
+  padding: 40px;
+  background-color: black;
+}
+
+#imagesContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-items: center;
+  align-items: center;
+  margin: 10px;
+}
+
+#locations {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url("img-locations-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 1200px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+}
+
+#locationsContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.img {
+  height: 200px;
+  width: 300px;
+  padding: 10px;
+}
+
+.locCont {
+  background-color: black;
+  width: 300px;
+  height: 250px;
+  margin: 15px 40px;
+  opacity: 1;
+  padding: 15px 0;
+}
+
+#contacts {
+  height: 200px;
+  width: 100%;
+  padding: 20px;
+  background-color: black;
+}
+
+footer {
+  text-align: left;
+  padding: 20px;
+  background-color: black;
+  width: 100%;
+}
+
+#withImg,
+#withContacts {
+  background-color: black;
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */
